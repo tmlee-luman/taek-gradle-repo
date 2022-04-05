@@ -14,16 +14,11 @@ publishing {
     repositories {
         maven {
             name = "taek_github_pakage"
-            url = uri("https://maven.pkg.github.com/OWNER/REPOSITORY")
+            url = uri("https://github.com/tmlee-luman/taek-gradle-repo.git")
             credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("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")
-                password = project.findProperty("gpr.key") ?: System.getenv("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")
+                username = "tmlee-luman"
+                password = "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"
             }
-        }
-    }
-    publications {
-        gpr(MavenPublication) {
-            from(components.java)
         }
     }
 }
