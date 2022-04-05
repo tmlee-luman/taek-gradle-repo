@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.taek.upload",
+    "module": "taek_upload_gradle",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "taek_upload_gradle-1.0.0.jar",
+          "url": "taek_upload_gradle-1.0.0.jar",
+          "size": 984,
+          "sha512": "3cd9e99c55ae71a78d05c884763a1aa0c9de4ced171fc2a5026437fb8504504e0074248a107f6ba473bd0fb3ad185888b6f9a4f3edc4e49b5ed387e2ee8ee42f",
+          "sha256": "afc7b92f6cc1f3a11ceb8276066240580cc126befb3abae7640df0d0235aa710",
+          "sha1": "9b6502d942319b67e1e8fd4ac8299ef8fd887308",
+          "md5": "b345fb20aca89efc96b66a235e66518a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "taek_upload_gradle-1.0.0.jar",
+          "url": "taek_upload_gradle-1.0.0.jar",
+          "size": 984,
+          "sha512": "3cd9e99c55ae71a78d05c884763a1aa0c9de4ced171fc2a5026437fb8504504e0074248a107f6ba473bd0fb3ad185888b6f9a4f3edc4e49b5ed387e2ee8ee42f",
+          "sha256": "afc7b92f6cc1f3a11ceb8276066240580cc126befb3abae7640df0d0235aa710",
+          "sha1": "9b6502d942319b67e1e8fd4ac8299ef8fd887308",
+          "md5": "b345fb20aca89efc96b66a235e66518a"
+        }
+      ]
+    }
+  ]
+}
